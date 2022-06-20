@@ -16,14 +16,14 @@ header {
     display: flex;
 }
 
-header{
+header {
     padding: 10px;
 }
 
 .menù {
     justify-content: space-between;
     background-color: #DAA520;
-    
+
 }
 
 .container {
@@ -43,21 +43,22 @@ header{
 }
 
 .item__menù {
-        justify-content: center;
+    justify-content: center;
 }
 
-.li__menù{
+.li__menù {
     padding-left: 25px;
 }
 
 /* css del main  */
 
-.head-main{
+.head-main {
     background-color: #00008B;
     padding: 30px 0;
 }
+
 /* metto delle altezzze minime per vedere il layout */
-.box__head-main{
+.box__head-main {
     max-width: 900px;
     min-height: 420px;
     background-color: #EE82EE;
@@ -65,30 +66,50 @@ header{
     border: 3px dotted black;
 }
 
-.body-main{
+.body-main {
     padding: 30px 0;
 }
 
-.box__body-main{
+.box__body-main {
     min-height: 500px;
-    
+
 }
 
-.blue-box__body-main{
+.blue-box__body-main {
     background-color: #1E90FF;
     flex-basis: 60%;
-    border-right: 3px dashed black;
+
 }
 
-.pink-box__body-main{
+.pink-box__body-main {
     background-color: #FFC0CB;
     flex-basis: 40%;
 }
 
-.reverse{
-    flex-direction: row-reverse;
-    
+/* bordi 
+un div blu figlio di un container deve avere un bordo destro
+un div blu figlio di un container con classe reverse non deve
+ avere un bordo destro
+un div rosa figlio di un container non deve avere un bordo
+ destro
+un div rosa figlio di un container con classe reverse deve
+ avere un bordo destro */
+
+.box__body-main>.blue-box__body-main {
+    border-right: 3px dashed black;
+
 }
-.gray{
+
+.reverse>.blue-box__body-main {
+    border-right: none;
+    border-left: 3px dashed black;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+
+}
+
+.gray {
     background-color: #D3D3D3;
 }
