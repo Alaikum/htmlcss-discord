@@ -113,3 +113,9 @@ un div rosa figlio di un container con classe reverse deve
 .gray {
     background-color: #D3D3D3;
 }
+
+
+.box__body-main-green{
+    background-color: #228B22;
+    min-height: 870px;
+}
