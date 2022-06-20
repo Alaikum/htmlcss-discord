@@ -1,3 +1,51 @@
-body{
-    background-color: blueviolet;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: #ADD8E6;
+}
+
+.flex {
+    display: flex;
+}
+
+header{
+    padding: 10px;
+}
+
+.menù {
+    justify-content: space-between;
+    background-color: #DAA520;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 3px dotted black;
+}
+
+
+
+
+.lista__menù {
+    /* flex-basis: 25%; */
+    width: 700px;
+    border-right: 3px dotted black;
+    border-left: 3px dotted black;
+}
+
+.item__menù {
+        justify-content: center;
+}
+
+.li__menù{
+    padding-left: 25px;
 }
