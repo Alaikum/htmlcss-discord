@@ -8,7 +8,7 @@ ul {
     list-style: none;
 }
 
-header {
+.nav {
     background-color: #ADD8E6;
     padding: 10px;
 }
@@ -19,9 +19,11 @@ header {
 
 
 
-.menù {
+.menù__nav {
     justify-content: space-between;
     background-color: #DAA520;
+    padding: 10px;
+    
 
 }
 
@@ -31,22 +33,23 @@ header {
     border: 3px dotted black;
 }
 
+.size__nav{
+    font-size: 25px;
+}
 
+.lista__nav {
 
-
-.lista__menù {
-   
     width: 700px;
     border-right: 3px dashed black;
     border-left: 3px dashed black;
 }
 
-.item__menù {
+.item__nav {
     justify-content: center;
 }
 
-.li__menù {
-    padding-left: 25px;
+.li__nav {
+    padding: 0 10px;
 }
 
 /* css del main  */
@@ -114,37 +117,58 @@ un div rosa figlio di un container con classe reverse deve
 }
 
 
-.box__body-main-green{
+.box__body-main-green {
     background-color: #228B22;
     min-height: 870px;
-    
+
 }
 
 /* da qui css footer  */
 
-.dark-gray{
+.dark-gray {
     background-color: #23272A;
 }
 
-.body-footer{
+.body-footer {
     padding: 10px;
     border-bottom: 1px solid white;
 }
 
-.box__body-footer{
+.box__body-footer {
     min-height: 550px;
 }
 
-.darkpink-box__body-footer{
+.darkpink-box__body-footer {
     background-color: #F08080;
     flex-basis: calc(100% / 3);
     border-right: 3px dashed black;
 
 }
 
-.lightgreen__body-footer{
+.lightgreen__body-footer {
     background-color: #20B2AA;
     flex-basis: calc(100% / 6);
     border: 3px dashed white;
 }
 
+
+.footer-footer {
+    padding-top: 20px;
+}
+
+.box__footer-footer {
+    min-height: 60px;
+    background-color: rgb(127, 255, 212);
+    /* colore trovato con paint */
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__footer-footer,
+.bottone__footer-footer {
+    background-color: #FFC0CB;
+    font-size: 25px;
+    border: 3px dashed black;
+    padding: 2px;
+}
