@@ -38,8 +38,8 @@ header{
 .lista__menù {
     /* flex-basis: 25%; */
     width: 700px;
-    border-right: 3px dotted black;
-    border-left: 3px dotted black;
+    border-right: 3px dashed black;
+    border-left: 3px dashed black;
 }
 
 .item__menù {
@@ -48,4 +48,38 @@ header{
 
 .li__menù{
     padding-left: 25px;
+}
+
+/* css del main  */
+
+.head-main{
+    background-color: #00008B;
+    padding: 30px 0;
+}
+/* metto delle altezzze minime per vedere il layout */
+.box__head-main{
+    max-width: 900px;
+    min-height: 420px;
+    background-color: #EE82EE;
+    margin: 0 auto;
+    border: 3px dotted black;
+}
+
+.body-main{
+    padding: 30px 0;
+}
+
+.box__body-main{
+    min-height: 500px;
+}
+
+.blue-box__body-main{
+    background-color: #1E90FF;
+    flex-basis: 60%;
+    border-right: 3px dashed black;
+}
+
+.pink-box__body-main{
+    background-color: #FFC0CB;
+    flex-basis: 40%;
 }
