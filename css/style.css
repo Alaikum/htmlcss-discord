@@ -71,6 +71,7 @@ header{
 
 .box__body-main{
     min-height: 500px;
+    
 }
 
 .blue-box__body-main{
@@ -82,4 +83,12 @@ header{
 .pink-box__body-main{
     background-color: #FFC0CB;
     flex-basis: 40%;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+    
+}
+.gray{
+    background-color: #D3D3D3;
 }
