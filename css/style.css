@@ -10,15 +10,14 @@ ul {
 
 header {
     background-color: #ADD8E6;
+    padding: 10px;
 }
 
 .flex {
     display: flex;
 }
 
-header {
-    padding: 10px;
-}
+
 
 .menù {
     justify-content: space-between;
@@ -36,7 +35,7 @@ header {
 
 
 .lista__menù {
-    /* flex-basis: 25%; */
+   
     width: 700px;
     border-right: 3px dashed black;
     border-left: 3px dashed black;
@@ -118,4 +117,34 @@ un div rosa figlio di un container con classe reverse deve
 .box__body-main-green{
     background-color: #228B22;
     min-height: 870px;
+    
 }
+
+/* da qui css footer  */
+
+.dark-gray{
+    background-color: #23272A;
+}
+
+.body-footer{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.box__body-footer{
+    min-height: 550px;
+}
+
+.darkpink-box__body-footer{
+    background-color: #F08080;
+    flex-basis: calc(100% / 3);
+    border-right: 3px dashed black;
+
+}
+
+.lightgreen__body-footer{
+    background-color: #20B2AA;
+    flex-basis: calc(100% / 6);
+    border: 3px dashed white;
+}
+
