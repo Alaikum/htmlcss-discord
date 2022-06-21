@@ -9,8 +9,9 @@ ul {
 }
 
 .nav {
-    background-color: #ADD8E6;
+    background-color: #5865F2;
     padding: 10px;
+    color: white;
 }
 
 .flex {
@@ -21,9 +22,9 @@ ul {
 
 .menù__nav {
     justify-content: space-between;
-    background-color: #DAA520;
+
     padding: 10px;
-    
+
 
 }
 
@@ -33,8 +34,11 @@ ul {
     border: 3px dotted black;
 }
 
-.size__nav{
-    font-size: 25px;
+.size__nav {
+    font-size: 20px;
+
+
+
 }
 
 .lista__nav {
@@ -50,6 +54,13 @@ ul {
 
 .li__nav {
     padding: 0 10px;
+}
+
+.login__nav{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 /* css del main  */
