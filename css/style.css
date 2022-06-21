@@ -17,6 +17,7 @@ ul {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -59,7 +60,7 @@ ul {
     padding: 0 10px;
 }
 
-.login__nav{
+.login__nav {
     color: black;
     background-color: white;
     border-radius: 25px;
@@ -67,6 +68,8 @@ ul {
 }
 
 /* CSS DEL MAIN */
+
+/* HEAD-MAIN  */
 
 .head-main {
     background-image: url(../img/jumbo.png);
@@ -85,34 +88,48 @@ ul {
     margin: 0 auto;
     border: 3px dotted black;
 }
-#h1__head-main{
+
+.h1__main {
     font-size: 35px;
-    
+
 }
-#p__head-main{
-   
+
+.p__main {
+    line-height: 25px;
+
     padding: 25px 140px 15px;
 }
 
-.bottoni__head-main{
+.bottoni__head-main {
     justify-content: center;
-gap: 10px;
+    gap: 10px;
 }
 
-#scarica, #apri{
-   
-    
+#scarica,
+#apri {
+
+    font-weight: bold;
     border-radius: 25px;
     padding: 10px;
 }
-#scarica{
+
+#scarica {
     color: black;
     background-color: white;
-    
+
 }
-#apri{
+
+#apri {
     background-color: black;
 }
+
+/* BODY-MAIN  */
+
+.padding__body{
+    text-align: left;
+    padding: 35px 75px ;
+}
+
 
 .body-main {
     padding: 30px 0;
