@@ -38,7 +38,7 @@ ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 3px dotted black;
+    /* border: 3px dotted black; */
 }
 
 .size__nav {
@@ -48,12 +48,12 @@ ul {
 
 }
 
-.lista__nav {
+/* .lista__nav {
 
     width: 700px;
     border-right: 3px dashed black;
     border-left: 3px dashed black;
-}
+} */
 
 .item__nav {
     justify-content: center;
@@ -89,9 +89,9 @@ ul {
     max-width: 900px;
     min-height: 420px;
     padding-top: 90px;
-    background-color: #EE82EE;
+    /* background-color: #EE82EE; */
     margin: 0 auto;
-    border: 3px dotted black;
+    /* border: 3px dotted black; */
 }
 
 .h1__main {
@@ -147,13 +147,13 @@ ul {
 }
 
 .blue-box__body-main {
-    background-color: #1E90FF;
+    /* background-color: #1E90FF; */
     flex-basis: 60%;
 
 }
 
 .pink-box__body-main {
-    background-color: #FFC0CB;
+    /* background-color: #FFC0CB; */
     flex-basis: 40%;
 }
 
@@ -166,7 +166,7 @@ un div rosa figlio di un container non deve avere un bordo
 un div rosa figlio di un container con classe reverse deve
  avere un bordo destro */
 
-.box__body-main>.blue-box__body-main {
+/* .box__body-main>.blue-box__body-main {
     border-right: 3px dashed black;
 
 }
@@ -174,7 +174,7 @@ un div rosa figlio di un container con classe reverse deve
 .reverse>.blue-box__body-main {
     border-right: none;
     border-left: 3px dashed black;
-}
+} */
 
 .reverse {
     flex-direction: row-reverse;
@@ -187,7 +187,7 @@ un div rosa figlio di un container con classe reverse deve
 
 
 .box__body-main-green {
-    background-color: #228B22;
+    /* background-color: #228B22; */
     min-height: 870px;
     justify-content: center;
     flex-direction: column;
@@ -273,16 +273,16 @@ un div rosa figlio di un container con classe reverse deve
 }
 
 .darkpink-box__body-footer {
-    background-color: #F08080;
+    /* background-color: #F08080; */
     flex-basis: calc(100% / 3);
-    border-right: 3px dashed black;
+    /* border-right: 3px dashed black; */
 
 }
 
 .lightgreen__body-footer {
-    background-color: #20B2AA;
+    /* background-color: #20B2AA; */
     flex-basis: calc(100% / 6);
-    border: 3px dashed white;
+    /* border: 3px dashed white; */
 }
 
 
@@ -297,7 +297,7 @@ un div rosa figlio di un container con classe reverse deve
 
 .box__footer-footer {
     min-height: 60px;
-    background-color: rgb(127, 255, 212);
+    /* background-color: rgb(127, 255, 212); */
     border-top: 1px solid rgb(42, 94, 232);
     /* colore trovato con paint */
     justify-content: space-between;
@@ -306,8 +306,8 @@ un div rosa figlio di un container con classe reverse deve
 
 .logo__footer-footer,
 .bottone__footer-footer {
-    background-color: #FFC0CB;
+    /* background-color: #FFC0CB; */
     font-size: 25px;
-    border: 3px dashed black;
+    /* border: 3px dashed black; */
     padding: 2px;
 }
