@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -111,7 +111,8 @@ ul {
 }
 
 .scarica,
-#apri {
+#apri,
+.registrati {
 
     font-weight: bold;
     border-radius: 25px;
@@ -130,9 +131,9 @@ ul {
 
 /* BODY-MAIN  */
 
-.padding__main{
+.padding__main {
     text-align: left;
-    padding: 35px 75px ;
+    padding: 35px 75px;
 }
 
 
@@ -194,25 +195,69 @@ un div rosa figlio di un container con classe reverse deve
 
 }
 
-#p__body-gray{
+#p__body-gray {
     text-align: center;
     padding: 25px 226px 15px;
 }
 
-#h2__gray{
+#h2__gray {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 25px;
 }
 
-.scarica.coloralt {
+.scarica.coloralt,
+.registrati.coloralt {
     color: white;
     background-color: rgb(42, 94, 232);
 
 }
 
-/* da qui css footer  */
+/* FOOTER  */
+
+.padding__footer {
+    padding-bottom: 20px;
+}
+
+.h1__footer {
+    padding: 30px 56px 30px 0;
+    font-size: xx-large;
+
+}
+
+.blue {
+    color: rgb(42, 94, 232);
+
+}
+
+.p__footer {
+    padding: 15px 0;
+}
+
+#bandiera {
+    max-width: 25px;
+}
+
+.social,
+.social>i {
+    padding-right: 5px;
+}
+
+.white {
+    color: white;
+}
+
+.ul__footer {
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.h3__footer {
+    padding: 30px 0;
+}
+
 
 .dark-gray {
     background-color: #23272A;
@@ -220,7 +265,7 @@ un div rosa figlio di un container con classe reverse deve
 
 .body-footer {
     padding: 10px;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .box__body-footer {
@@ -243,13 +288,18 @@ un div rosa figlio di un container con classe reverse deve
 
 .footer-footer {
     padding-top: 20px;
+
+}
+
+.registrati{
+    font-size: small;
 }
 
 .box__footer-footer {
     min-height: 60px;
     background-color: rgb(127, 255, 212);
+    border-top: 1px solid rgb(42, 94, 232);
     /* colore trovato con paint */
-    border: none;
     justify-content: space-between;
     align-items: center;
 }
